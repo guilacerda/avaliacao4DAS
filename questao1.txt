@@ -1,0 +1,34 @@
+Questão 1: 
+
+a) 
+
+Componente: 
+
+Componentes podem ser vistos como uma parte do sistema de software que é identificável e reusável, podendo ser executada em um dispositivo físico, lógico, ou ainda, como o estado seguinte de abstração depois de funções, módulos e classes. Um componente implementa uma ou mais interfaces que são impostas sobre ele.  
+
+Modelo de Componente:
+
+Um modelo de componentes representa um elemento da arquitetura do sistema na qual são definidos os padrões 	e convenções impostas aos componentes do sistema, de modo a descrever a função de cada um e como eles interagem entre si. Com isso, busca-se expressar restrições de projeto arquitetural ou global.
+
+Framework de Componentes:
+
+Representa a base sobre a qual estes padrões e convenções do modelo de componentes são empregados.
+Sendo assim, o framework e  o modelo de componentes possuem uma ligação muito forte entre si e são considerados complementares entre seus conceitos. Então, o framework deve respeitar e regular as definições estabelecidas pelo modelo de componentes [BAC02], da mesma maneira que as definições estabelecidas pelo modelo de componentes devem ser suportadas pelo framework.
+
+O conceito definido por [BAC02] como framework de componentes é identificado em [BRO00] como infraestrutura de componentes, sendo estabelecido também como tipicamente responsável por ao menos uma destas categorias de serviços: empacotamento, distribuição, segurança, gerenciamentos de transações e comunicação assíncrona.
+
+b) 
+
+Componente: 
+
+Dentro da abordagem DBC, os componentes proporcionam a construção de novas soluções através de componentes desenvolvidos e comprados, que podem aumentar a qualidade e dar suporte a um desenvolvimento mais rápido. A aplicação e o uso da tecnologia de componentes está diretamente relacionada à visão de componentes como componentes de código. Além disso, alguns autores defendem que uma melhor situação de DBC seria quando o foco não estivesse apenas no reuso de componentes em todas as fases do processo de desenvolvimento de software.
+
+Modelo de componentes:
+
+Para se ter um projeto com que os componentes consigam se comunicar corretamente, sem nenhum erro que possa prejudicar o mesmo, é preciso uma arquitetura que imponha padrões e convenções aos componentes, que estão isolados, no sistema. Descrevendo o modo que irão exercer suas funcionalidades e como irão interagir entre si.
+
+Tendo então como função expressar e criar restrições de projeto arquitetural ou global, que são padrões e convenções, que irão reger a comunicação entre os componentes que compõe o projeto. Tendo em vista que se não há nenhuma regra para interação, o padrão de componentes terá sua principal ideia arruinado desde o princípio.
+
+Framework de Componentes:
+
+Como descrito anteriormente, cada componente tem uma funcionalidade própria e isolada. A função do framework, abordada na DBC, é gerenciar os recursos que são compartilhados entre os componentes, respeitando as regras exigidas pelo modelo de componentes. Ademais, prover um mecanismo que possibilite a comunicação entre eles. A infraestrutura oferecida impõem restrições e regras no projeto e implementação, as quais devem ser consideradas pelo modelo de componentes.
