@@ -1,0 +1,10 @@
+Na imagem apresentada, existem dois tipos de interação nos sistemas baseados em componentes: 
+
+	- Relacionado a Componente-Componente, trata-se da integração entre os dois componentes a partir de uma interface específica que realiza o contrato entre eles.
+
+	- Relacionado a Componente-Framework, onde existe a integração entre os componentes integrados e o modelo de componentes juntamente com o framework de componentes.
+
+	Especificamente falando a respeito do stub no contexto da imagem, ele trabalha no ponto que é apresentado dentro do campo do Modelo de Componente, pois sendo um tipo de componente especificado como componente de interface para a obtenção do método no objeto remoto, ele recebe as informações dos parâmetros serializados pelo componente cliente, compactando os parâmetros (marshalling) e envia para o intermédio do skeleton, que trabalha com a requisição do método no objeto remoto de forma mais direta, descompactando os parâmetros compactados anteriormente (unmarshalling), também pertencente ao contexto de Modelo de Componente.
+	A respeito dos registro, relacionado com a imagem abordada, ele entraria no ponto de tratamento no campo de framework de componentes, dando suporte ou até reforçando o modelo de componentes. Seu objetivo no contexto da imagem é facilitar a comunicação entre os componentes, trabalhando como uma aplicação do padrão adapter para a comunicação entre o stub e o skeleton.
+	Relacionado à invocação remota dos métodos, faz uso de todos os componentes e atuações do framework citados anteriormente. Após a criação do registro do servidores, o processo de invocação remota do método é dado pelo processo de integração do stub com a parametrização dos parâmetros para o envio ao skeleton, que solicita remotamente o método invocado.
+
